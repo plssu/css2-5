@@ -81,12 +81,14 @@
     display: block;
     padding: 8px;
     height: 712px;
+    margin-bottom: 64px;
 }
 
 #cardOne {
     display: inline-block;
     width: 375px;
-    height: 583px;
+    height: 670px;
+    line-height: 17.7px;
     border-radius: 24px;
     background-color: #FFFFFF;
 }
@@ -96,12 +98,12 @@
     height: 235px;
 }
 
-#badges {
-    display: block;
-    margin-top: 44px;
+#badge {
+    display: inline-block;
     width: 88px;
     height: 34px;
-    border-radius: 16px;
+    border-radius: 8px;
+    margin-top: 40px;
     border: 1px solid #E9D7FE;
     color: #6941C6;
     background-color: #F9F5FF;
@@ -109,14 +111,16 @@
 
 #basic {
     display: inline-block;
-    margin-top: 8px;
-    margin-bottom: 16px;
+    margin: 0;
+    padding: 12px 4px;
+    line-height: 16px;
 }
 
 #price {
     display: block;
     color: #181D27;
     text-align: center;
+    height: 72px;
     font-family: 'Inter';
     font-size: 48px;
     font-style: normal;
@@ -190,6 +194,12 @@
     font-weight: 400;
 }
 
+div#items {
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+}
+
 #Check {
     display: inline-block;
     
@@ -216,10 +226,15 @@
     margin-bottom: 40px;
 }
 
+#business {
+    display: inline;
+    line-height: 32px;
+}
+
 #cardTwo {
     display: inline-block;
     width: 375px;
-    height: 583px;
+    height: 670px;
     margin: 0;
     border-radius: 24px;
     background-color: #FFFFFF;
@@ -236,7 +251,7 @@
 
 #badges {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 320px;
     width: 120px;
     height: 32px;
     border-radius: 16px;
@@ -343,8 +358,9 @@
 #cardThree {
     display: inline-block;
     width: 375px;
-    height: 583px;
+    height: 670px;
     margin: 0;
+    line-height: 17/7px;
     border-radius: 24px;
     background-color: #FFFFFF;
 }
@@ -380,6 +396,7 @@
     color: #181D27;
     text-align: center;
     font-family: 'Inter';
+    width: 375px;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -396,7 +413,13 @@
     margin-bottom: 16px;
 }
 
-#get {
+#priceAndSuppor {
+    display: inline-block;
+    width: 375px;
+    height: 130px;
+}
+
+#got {
     display: inline-block;
     width: 300px;
     height: 40px;
@@ -404,6 +427,7 @@
     border-radius: 8px;
     border: 2px solid rgba(255, 255, 255, 0.12);
     background: #7F56D9;
+    margin-top: 16px;
     margin-bottom: 8px;
 }
 
@@ -462,4 +486,29 @@
     font-weight: 400;
     text-align: left;
     margin-bottom: 8px;
+}
+
+#frame {
+    display: inline-block;
+    width: 1248px;
+    text-align: center;
+}
+
+#headingAndSupp {
+    display: inline-block;
+    margin-top: 32px;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#questions {
+    display: inline;
+    width: 468px;
+    height: 16px;
+    margin-bottom: 0;
 }
